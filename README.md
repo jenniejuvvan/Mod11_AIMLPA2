@@ -2,7 +2,7 @@
 Used Car Price Prediction – Report
 Project Overview
 
-We analyzed a dataset of 426K used cars (subset of a larger 3M record dataset from Kaggle) to understand the factors influencing resale prices in the U.S. car market.
+I have analyzed a dataset of 426K used cars (subset of a larger 3M record dataset from Kaggle) to understand the factors influencing resale prices in the U.S. car market.
 
 The problem was framed as a regression task, applying machine learning models including Linear Regression, Decision Trees, and Random Forests. Their performances were compared to identify the most suitable technique for predicting used car prices.
 
@@ -56,7 +56,7 @@ Manufacturer & Vehicle Type are the strongest determinants of price.
 
 Positive impact: Volvo, Toyota, Pickup trucks, Diesel fuel, Manual transmission.
 
-Negative impact: RAM, Datsun, Harley-Davidson, Offroad vehicles, Hybrids (in this dataset context).
+Negative impact/outliers: RAM, Datsun, Harley-Davidson, Offroad vehicles, Hybrids (in this dataset context).
 
 Feature interactions matter:
 
